@@ -2,12 +2,6 @@ Let's start with a very simple example to understand how these exercises are goi
 
 ## How to solve a challenge
 
-Some of the exercises will have a `Makefile`. This file will let you check whether or not your challenge is correct (using [Test-Driven Development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development) where tests have been written beforehand by Le Wagon's teachers). To run this script in your terminal, `cd` to the proper folder (as explained above ☝️) and run:
-
-``` bash
-make
-```
-
 Your goal is to implement the function `sum3` in the `sum_of_three.py` file. The workflow you need to follow is:
 
 1. Read all of the challenge instructions
@@ -15,7 +9,7 @@ Your goal is to implement the function `sum3` in the `sum_of_three.py` file. The
 1. Run `make`
 1. Read the first error message and try to make sense of it (if you need to, Google it!)
 1. Change the code in `sum_of_three.py`
-1. Re-run `make`
+1. Re-run `pytest`
 1. New error message? Less failures? You are making progress!
 1. Repeat until you no longer have any errors
 1. Make sure your style is correct and you achieve a `10.00/10` score
