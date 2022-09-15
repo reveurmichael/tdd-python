@@ -6,7 +6,7 @@ Your goal is to implement the function `sum3` in the `sum_of_three.py` file. The
 
 1. Read all of the challenge instructions
 1. Open the `sum_of_three.py` file where you need to write code and read it first
-1. Run `make`
+1. Run `pytest`
 1. Read the first error message and try to make sense of it (if you need to, Google it!)
 1. Change the code in `sum_of_three.py`
 1. Re-run `pytest`
